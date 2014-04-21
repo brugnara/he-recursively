@@ -1,7 +1,7 @@
 {
   "name": "ent-rec",
   "description": "Encode and decode recursively strings in a mixed object",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "maintainers": [
     {
       "name": "Daniele Brugnara",
