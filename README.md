@@ -1,20 +1,20 @@
-node-ent-recursively
-====================
+he-recursively
+==============
 
 Encode and decode recursively strings in a mixed object
 
 # How
 
-    % npm install ent-rec
+    % npm install he-rec
 
-    var EntRec = require('ent-rec');
+    var HeRec = require('ent-rec');
 
-    EntRed.decode(object);
-    EntRed.encode(object, options);
+    HeRec.decode(object, options);
+    HeRec.encode(object, options);
 
 # Test
 
     % mocha
 
-### Thanks to node-ent project.
+### Thanks to he project.
 

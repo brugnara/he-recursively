@@ -2,14 +2,13 @@
  * Created by Daniele Brugnara on 4/21/14.
  */
 
-var ent = require('ent')
-;
+var he = require('he');
 
-var EntRec = {
+var HeRec = {
   //
 }
 
-EntRec.slave = function(obj, recWorker, worker, opts) {
+HeRec.slave = function(obj, recWorker, worker, opts) {
   var keys
     , self = this
   ;
@@ -34,12 +33,12 @@ EntRec.slave = function(obj, recWorker, worker, opts) {
   return obj;
 }
 
-EntRec.decode = function(obj) {
-  return EntRec.slave(obj, EntRec.decode, ent.decode);
+HeRec.decode = function(obj, opts) {
+  return HeRec.slave(obj, HeRec.decode, he.decode, opts);
 }
 
-EntRec.encode = function(obj, opts) {
-  return EntRec.slave(obj, EntRec.encode, ent.encode, opts);
+HeRec.encode = function(obj, opts) {
+  return HeRec.slave(obj, HeRec.encode, he.encode, opts);
 }
 
-module.exports = EntRec;
+module.exports = HeRec;
