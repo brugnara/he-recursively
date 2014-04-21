@@ -7,7 +7,7 @@ Encode and decode recursively strings in a mixed object
 
     % npm install he-rec
 
-    var HeRec = require('ent-rec');
+    var HeRec = require('he-rec');
 
     HeRec.decode(object, options);
     HeRec.encode(object, options);
