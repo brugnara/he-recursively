@@ -1,4 +1,6 @@
 node-ent-recursively
 ====================
 
-Decode recursively a json object
+Encode and decode recursively strings in a mixed object
+
+### Thanks to node-ent project.

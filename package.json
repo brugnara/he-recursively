@@ -1,0 +1,35 @@
+{
+  "name": "ent-rec",
+  "description": "Encode and decode recursively strings in a mixed object",
+  "version": "0.1.1",
+  "maintainers": [
+    {
+      "name": "Daniele Brugnara",
+      "email": "daniele@brugnara.me",
+      "web": "brugnara.me"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/brugnara/node-ent-recursively"
+    }
+  ],
+  "dependencies": {
+    "ent": "^2.0.0"
+  },
+  "main": "./main.js",
+  "keywords": [
+    "entities",
+    "entitify",
+    "entity",
+    "html",
+    "encode",
+    "decode",
+    "recursive",
+    "recursively"
+  ],
+  "devDependencies": {
+    "chai": "^1.9.1"
+  }
+}
