@@ -39,7 +39,7 @@ EntRec.decode = function(obj) {
 }
 
 EntRec.encode = function(obj, opts) {
-  return EntRec.slave(obj, EntRec.encode, ent.encode);
+  return EntRec.slave(obj, EntRec.encode, ent.encode, opts);
 }
 
 module.exports = EntRec;
