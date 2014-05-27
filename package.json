@@ -16,7 +16,7 @@
     }
   ],
   "dependencies": {
-    "he": "^0.3.6"
+    "he": "^0.4.1"
   },
   "main": "./main.js",
   "keywords": [
